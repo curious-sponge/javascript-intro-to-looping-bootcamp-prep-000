@@ -5,4 +5,10 @@ function forLoop(anArray){
     return anArray;
   }
   
-  
+  function whileLoop(x){
+      let x = 10;
+      while(x > 0){
+        console.log(--x);
+      }
+      return 'done';
+  }
