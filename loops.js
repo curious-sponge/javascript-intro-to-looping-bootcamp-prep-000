@@ -6,9 +6,9 @@ function forLoop(anArray){
   }
   
   function whileLoop(x){
-      let x = 10;
-      while(x > 0){
-        console.log(--x);
+      let countdown = 10;
+      while(countdown > 0){
+        console.log(--countdown);
       }
       return 'done';
   }
