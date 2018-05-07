@@ -5,7 +5,7 @@ function forLoop(anArray){
     return anArray;
   }
   
-  function whileLoop(x){
+  function whileLoop(countdown){
       let countdown = 10;
       while(countdown > 0){
         console.log(--countdown);
