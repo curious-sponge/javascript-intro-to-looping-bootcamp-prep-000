@@ -12,7 +12,12 @@ function forLoop(anArray){
       return 'done';
   }
   
+  function maybeTrue() {
+  return Math.random() >= 0.5
+}
   
   function doWhileLoop(anArray){
-    
+    do{
+      anArray.pop();
+    }while(array.length > 0 && maybeTrue());
   }
