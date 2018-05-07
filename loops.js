@@ -20,4 +20,5 @@ function forLoop(anArray){
     do{
       anArray.pop();
     }while(array.length > 0 && maybeTrue());
+    return anArray;
   }
