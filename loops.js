@@ -11,3 +11,8 @@ function forLoop(anArray){
       }
       return 'done';
   }
+  
+  
+  function doWhileLoop(anArray){
+    
+  }
