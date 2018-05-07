@@ -19,6 +19,6 @@ function forLoop(anArray){
   function doWhileLoop(anArray){
     do{
       anArray.pop();
-    }while(array.length > 0 && maybeTrue());
+    }while(anArray.length > 0 && maybeTrue());
     return anArray;
   }
